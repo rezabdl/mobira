@@ -1,0 +1,2 @@
+import { Marketplace, Navbar, Footer } from '@/components/mobira'
+export default function CarsPage() { return <><Navbar active="Cars"/><main className="cars-page"><div className="cars-intro"><div className="eyebrow">A LITTLE CLOSER TO YOUR NEXT CAR</div><h1>Good cars. <em>Good choices.</em></h1><p>Explore a considered collection of cars, made easier to find.</p></div><Marketplace/></main><Footer/></> }
